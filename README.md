@@ -1,0 +1,1 @@
+An attempt to recreate the official google homepage while learning at the odin project
