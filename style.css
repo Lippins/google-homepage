@@ -5,8 +5,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
-	min-width: 600px;
-	height:auto;
+	height: 100%;
 }
 
 .container{
@@ -28,14 +27,14 @@ li{
 
 a{
 	text-decoration: none;
-	color: #333;
+	color: #333333;
 }
 
 button{
-	background: #f4f4f4;
+	background: #F4F4F4;
 	font-family: Arial, Helvetica, San-serif;
 	color: #99999;
-	border: 1px solid #f4f4f4;
+	border: 1px solid #F4F4F4;
 	height: 35px;
 	margin-bottom: 15px;
 	padding: 8px 15px;
@@ -44,9 +43,9 @@ button{
 
 button:hover{
 	color: #333333;
-	border: 1px solid #bbbbbb;
+	border: 1px solid #BBBBBB;
 	border-radius: 5px;
-	background: #ffffff;
+	background: #FFFFFF;
 }
 
 a:hover{
@@ -58,7 +57,12 @@ a:hover{
 #main_nav{
 	float: right;
 	margin-top: 5px;
-	margin-bottom: 150px;
+	margin-bottom: 120px;
+}
+
+li{
+	display: inline;
+	padding: 10px;
 }
 
 #main_nav .g_imgs{
@@ -68,9 +72,12 @@ a:hover{
 	width: 25px;
 }
 
-li{
-	display: inline;
-	padding: 10px;
+.gapps{
+	opacity: .5;
+}
+
+.gapps:hover{
+	opacity: 1;
 }
 
 /*section*/
@@ -101,8 +108,11 @@ input:hover, input:focus{
 /*footer*/
 
 footer{
-	background: #f4f4f4;
+	background: #EEEEEE;
 	color:#555;
+	position: absolute;
+	width: 100%;
+	top: 89%;
 }
 
 .standalone{
@@ -127,8 +137,27 @@ footer{
 	box-sizing: border-box;
 }
 
-.left, .right{
-	background: #EEE;
-}
+/*media queries*/
 
+@media (max-width: 700px){
+
+	footer{
+		position: absolute;
+		top: 85%;
+	}
+
+	.left, .right{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.standalone{
+		text-align: center;
+	}
+
+	input{
+		width: 85%;
+	}
+}
 
