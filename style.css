@@ -1,4 +1,5 @@
 /*global*/
+
 body{
 	font: 13px/1.6em Arial, Helvetica, San-serif;
 	height: 100%;
@@ -33,7 +34,7 @@ a{
 button{
 	background: #F4F4F4;
 	font-family: Arial, Helvetica, San-serif;
-	color: #99999;
+	color: #999999;
 	border: 1px solid #F4F4F4;
 	height: 35px;
 	margin-bottom: 15px;

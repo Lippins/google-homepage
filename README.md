@@ -1,1 +1,2 @@
-An attempt to recreate the official google homepage while learning at the odin project
+An attempt to recreate the official google homepage while learning at the odin project.
+The html was pretty easy for me but styling with css gave me alot of headaches. I learned how to float elements and the importance of adding the width attribute. I also learnt, amidst the numerous headaches, the importance using the clear attribute after floating in order to remove float interactions with divs below.
